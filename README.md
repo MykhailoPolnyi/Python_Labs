@@ -16,14 +16,14 @@
 - акційна ціна
 
 
-To run the program in command line:
-1.to copy repository on your current disk/folder use "git clone <address_of_repository>.git
-2.to open folder with local repository use "cd <repository_name>"
-3.if the file you want to open isn't in the main branch, use git checkout <branch_name>, that will switch you to <branch_name> branch
-4.to run the program with the extension .py use "python file_name.py"
+<p>To run the program in command line:<br>
+1.to copy repository on your current disk/folder use "git clone <address_of_repository>.git<br>
+2.to open folder with local repository use "cd <repository_name>"<br>
+3.if the file you want to open isn't in the main branch, use git checkout <branch_name>, that will switch you to <branch_name> branch <br>
+4.to run the program with the extension .py use "python file_name.py"</p>
 
-In current expamle use:
-1.git clone https://github.com/MykhailoPolnyi/Python_Lab_1.git\n
-2.cd Python_Labs
-3.git checkout Lab_1
-4.python main.py
+<p>In current expamle use: <br>
+1.git clone https://github.com/MykhailoPolnyi/Python_Lab_1.git<br>
+2.cd Python_Labs<br>
+3.git checkout Lab_1<br>
+4.python main.py</p>
