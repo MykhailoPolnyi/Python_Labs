@@ -23,7 +23,7 @@ To run the program in command line:
 4.to run the program with the extension .py use "python file_name.py"
 
 In current expamle use:
-1.git clone https://github.com/MykhailoPolnyi/Python_Lab_1.git\n
+1.git clone https://github.com/MykhailoPolnyi/Python_Lab_1.git
 2.cd Python_Labs
 3.git checkout Lab_1
 4.python main.py
