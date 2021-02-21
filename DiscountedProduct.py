@@ -1,8 +1,8 @@
 class DiscountedProduct:
     __discounted_products_counter = 0
 
-    def __init__(self, /, product_name="", producer="", *, starting_price=0,
-                 discount_in_percents=0, discount_duration_days=0, customers_rate=0):
+    def __init__(self, /, product_name="", producer="not specified", *, starting_price=0,
+                 discount_in_percents=0, discount_duration_days=0, customers_rate="unknown"):
         self.name = product_name
         self.producer = producer
         self.starting_price = starting_price
@@ -20,7 +20,7 @@ Starting Price: {self.starting_price} \n\
 Price with discount: {self.price_with_discount}\n\
 Producer: {self.producer} \n\
 Duration of discount: {self.discount_duration_days} days\n\
-Customers rate of this product: {self.customers_rate}/10\n"
+Customers rate of this product: {self.customers_rate}\n"
 
     def __del__(self):
         del self
